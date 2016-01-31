@@ -17,7 +17,7 @@ shinyUI(fluidPage(
     sidebarPanel(
       sliderInput("bins",
                   "Number of bins:",
-                  min = 5,
+                  min = 1,
                   max = 50,
                   value = 30)
     ),
